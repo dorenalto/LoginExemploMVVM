@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F4BF622A2CFC9BA9005034F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BF620B2CFC9BA5005034F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BF62122CFC9BA5005034F2;
+			remoteInfo = LoginMVVM;
+		};
+		F4BF62342CFC9BA9005034F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BF620B2CFC9BA5005034F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BF62122CFC9BA5005034F2;
+			remoteInfo = LoginMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4BF62132CFC9BA5005034F2 /* LoginMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BF62292CFC9BA9005034F2 /* LoginMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BF62332CFC9BA9005034F2 /* LoginMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F4BF623B2CFC9BA9005034F2 /* Exceptions for "LoginMVVM" folder in "LoginMVVM" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F4BF62122CFC9BA5005034F2 /* LoginMVVM */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F4BF62152CFC9BA5005034F2 /* LoginMVVM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F4BF623B2CFC9BA9005034F2 /* Exceptions for "LoginMVVM" folder in "LoginMVVM" target */,
+			);
+			path = LoginMVVM;
+			sourceTree = "<group>";
+		};
+		F4BF622C2CFC9BA9005034F2 /* LoginMVVMTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LoginMVVMTests;
+			sourceTree = "<group>";
+		};
+		F4BF62362CFC9BA9005034F2 /* LoginMVVMUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LoginMVVMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4BF62102CFC9BA5005034F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF62262CFC9BA9005034F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF62302CFC9BA9005034F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4BF620A2CFC9BA5005034F2 = {
+			isa = PBXGroup;
+			children = (
+				F4BF62152CFC9BA5005034F2 /* LoginMVVM */,
+				F4BF622C2CFC9BA9005034F2 /* LoginMVVMTests */,
+				F4BF62362CFC9BA9005034F2 /* LoginMVVMUITests */,
+				F4BF62142CFC9BA5005034F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BF62142CFC9BA5005034F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BF62132CFC9BA5005034F2 /* LoginMVVM.app */,
+				F4BF62292CFC9BA9005034F2 /* LoginMVVMTests.xctest */,
+				F4BF62332CFC9BA9005034F2 /* LoginMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4BF62122CFC9BA5005034F2 /* LoginMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BF623C2CFC9BA9005034F2 /* Build configuration list for PBXNativeTarget "LoginMVVM" */;
+			buildPhases = (
+				F4BF620F2CFC9BA5005034F2 /* Sources */,
+				F4BF62102CFC9BA5005034F2 /* Frameworks */,
+				F4BF62112CFC9BA5005034F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F4BF62152CFC9BA5005034F2 /* LoginMVVM */,
+			);
+			name = LoginMVVM;
+			packageProductDependencies = (
+			);
+			productName = LoginMVVM;
+			productReference = F4BF62132CFC9BA5005034F2 /* LoginMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4BF62282CFC9BA9005034F2 /* LoginMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BF62412CFC9BA9005034F2 /* Build configuration list for PBXNativeTarget "LoginMVVMTests" */;
+			buildPhases = (
+				F4BF62252CFC9BA9005034F2 /* Sources */,
+				F4BF62262CFC9BA9005034F2 /* Frameworks */,
+				F4BF62272CFC9BA9005034F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BF622B2CFC9BA9005034F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F4BF622C2CFC9BA9005034F2 /* LoginMVVMTests */,
+			);
+			name = LoginMVVMTests;
+			packageProductDependencies = (
+			);
+			productName = LoginMVVMTests;
+			productReference = F4BF62292CFC9BA9005034F2 /* LoginMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4BF62322CFC9BA9005034F2 /* LoginMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BF62442CFC9BA9005034F2 /* Build configuration list for PBXNativeTarget "LoginMVVMUITests" */;
+			buildPhases = (
+				F4BF622F2CFC9BA9005034F2 /* Sources */,
+				F4BF62302CFC9BA9005034F2 /* Frameworks */,
+				F4BF62312CFC9BA9005034F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BF62352CFC9BA9005034F2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F4BF62362CFC9BA9005034F2 /* LoginMVVMUITests */,
+			);
+			name = LoginMVVMUITests;
+			packageProductDependencies = (
+			);
+			productName = LoginMVVMUITests;
+			productReference = F4BF62332CFC9BA9005034F2 /* LoginMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4BF620B2CFC9BA5005034F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					F4BF62122CFC9BA5005034F2 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					F4BF62282CFC9BA9005034F2 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F4BF62122CFC9BA5005034F2;
+					};
+					F4BF62322CFC9BA9005034F2 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F4BF62122CFC9BA5005034F2;
+					};
+				};
+			};
+			buildConfigurationList = F4BF620E2CFC9BA5005034F2 /* Build configuration list for PBXProject "LoginMVVM" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4BF620A2CFC9BA5005034F2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F4BF62142CFC9BA5005034F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BF62122CFC9BA5005034F2 /* LoginMVVM */,
+				F4BF62282CFC9BA9005034F2 /* LoginMVVMTests */,
+				F4BF62322CFC9BA9005034F2 /* LoginMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4BF62112CFC9BA5005034F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF62272CFC9BA9005034F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF62312CFC9BA9005034F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4BF620F2CFC9BA5005034F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF62252CFC9BA9005034F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF622F2CFC9BA9005034F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4BF622B2CFC9BA9005034F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BF62122CFC9BA5005034F2 /* LoginMVVM */;
+			targetProxy = F4BF622A2CFC9BA9005034F2 /* PBXContainerItemProxy */;
+		};
+		F4BF62352CFC9BA9005034F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BF62122CFC9BA5005034F2 /* LoginMVVM */;
+			targetProxy = F4BF62342CFC9BA9005034F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4BF623D2CFC9BA9005034F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WSW53Z76A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.LoginMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4BF623E2CFC9BA9005034F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WSW53Z76A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.LoginMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4BF623F2CFC9BA9005034F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4BF62402CFC9BA9005034F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4BF62422CFC9BA9005034F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WSW53Z76A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.LoginMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginMVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoginMVVM";
+			};
+			name = Debug;
+		};
+		F4BF62432CFC9BA9005034F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WSW53Z76A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.LoginMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginMVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoginMVVM";
+			};
+			name = Release;
+		};
+		F4BF62452CFC9BA9005034F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WSW53Z76A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.LoginMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoginMVVM;
+			};
+			name = Debug;
+		};
+		F4BF62462CFC9BA9005034F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WSW53Z76A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.LoginMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoginMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4BF620E2CFC9BA5005034F2 /* Build configuration list for PBXProject "LoginMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BF623F2CFC9BA9005034F2 /* Debug */,
+				F4BF62402CFC9BA9005034F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BF623C2CFC9BA9005034F2 /* Build configuration list for PBXNativeTarget "LoginMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BF623D2CFC9BA9005034F2 /* Debug */,
+				F4BF623E2CFC9BA9005034F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BF62412CFC9BA9005034F2 /* Build configuration list for PBXNativeTarget "LoginMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BF62422CFC9BA9005034F2 /* Debug */,
+				F4BF62432CFC9BA9005034F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BF62442CFC9BA9005034F2 /* Build configuration list for PBXNativeTarget "LoginMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BF62452CFC9BA9005034F2 /* Debug */,
+				F4BF62462CFC9BA9005034F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4BF620B2CFC9BA5005034F2 /* Project object */;
+}
